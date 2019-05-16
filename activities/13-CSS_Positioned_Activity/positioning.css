@@ -1,0 +1,36 @@
+body{
+    background-color: #eee;
+    margin: 0 auto
+}
+
+.fixed{
+    top: 0;
+    left:0;
+    background-color:#999;
+    position:fixed;
+    height: 100px;
+    width: 250px;
+}
+
+.intro{
+    width:960px;
+    margin: 0 auto;
+}
+
+#relative{
+position: relative;
+ background-color: lightgrey;
+ height: 200px;
+ width: 100%;
+}
+
+#absolute{
+    position: absolute;
+    background-color:darkgrey;
+    bottom: 0;
+    right: -10px;
+    height: 100px;
+    width: 200px;
+    
+
+}
